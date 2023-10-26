@@ -26,7 +26,7 @@ spring:
             - CustomFilter
           predicates:
             - Path=/first-service/**
-        - id: first-service
+        - id: second-service
           uri: lb://MY-SECOND-SERVICE
           filters:
 #            - AddRequestHeader= second-request,second-request-header2
